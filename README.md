@@ -12,7 +12,7 @@ iii.	Task contribution(s) :
 •	Reservationform.html
 •	reservation.css
 
-2.	Intan – 
+2.	Intan 
 
 3.	Munawwarah 
 •	About.php
