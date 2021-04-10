@@ -1,0 +1,273 @@
+/*HEADER*/
+header {
+  width: 100%;
+  height: 100px;
+  margin:  auto;
+  background-color: #BB7944;
+  
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Top {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logomain {
+  float: left;
+  margin-left: -10px;
+  width: 100px;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  float: right;
+  width: 50%;
+  padding-left: -10%;
+  padding-right: -10%;
+  margin-right: -15%;
+  padding-top: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+nav a:hover {
+  color: white;
+  background: black;
+  transition: 0.5s;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/*BODY*/
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Cambria, Georgia, serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  
+  #Accommodation {
+    top: 210px;
+    text-align: right;
+    width: 240px;
+    left: -195px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+  }
+  
+  .card2 {
+    background-color: #000033;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+  }
+  
+  .button {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  li{
+    margin-left: 4em;
+    padding: 0;
+  }
+
+  /*accommodation.html*/
+  .rowfaq{
+    padding-left: 50px;
+  }
+  
+  .hotel {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 1px;
+  }
+  .hotels{
+    padding-left: 50px;
+    box-align:right;
+    text-align: justify;
+  }
+  
+  *{
+    padding:0;
+    margin: 0;
+  }
+  .room {
+      float:left;
+  }
+  .rooms {
+    padding-left: 50px;
+    box-align:right;
+    text-align: justify;
+  }
+  .transportation{
+    float:right;
+    margin-top: 40px;
+  }
+  .transportations{
+    padding-left: 40px;
+    box-align:left;
+  }
+  .Visas{
+    padding-left: 50px;
+    box-align:right;
+    text-align: justify;
+  }
+  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .ulacco {
+    margin-left: 0px;
+  }
+  .try{
+    background-color: #ff8000;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 100px ;
+}
+.no{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 100px ;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #BB7944;
+  color: black;
+}
+.text1 {
+  margin-left: 20px;
+  font-size: 12px;
+  padding-top: 20px;
+  color: black;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  color: black;
+}

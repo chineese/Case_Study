@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Booking</title>
+
+<link rel="stylesheet" href="reservation.css">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container">
+<div class="container-time">
+<h2 class="heading">Time Open</h2>
+<h3 class="heading-days">Monday-Sunday</h3>
+<p>8am - 11pm </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+
+<h4 class="heading-phone">Call Us: 01627716411</h4>
+</div>
+
+<div class="container-form">
+<form action="#">
+<h2 class="heading heading-yellow">Reservation Online</h2>
+
+<div class="form-field" >
+    <p>Your Name</p>
+    <input type="text" id="name" placeholder="Your Name">
+    </div>
+    <div class="form-field" >
+    <p>Your email</p>
+    <input type="email" id="email" placeholder="Your email">
+    </div>
+    <div class="form-field" >
+    <p>Date</p>
+    <input type="date" id="date">
+    </div>
+    <div class="form-field">
+    <p>Time</p>
+    <input id="time" type="time">
+    </div>
+    <div class="form-field">
+    <p>Select Venue</p>
+
+<select name="select" id="venue">
+    <option value="Performing Art">Performing Art</option>
+    <option value="Auditorium">Auditorium</option>
+    <option value="KL Center">KL Center</option>
+    <option value="Hotel Neo">Hotel Neo</option>
+    <option value="Worq">Worq</option>
+    <option value="GlassHall">GlassHall</option>
+    <option value="Internet events">Internet events</option>
+    <option value="Suband">Suband</option>
+    <option value="KL Centeral">KL Centeral</option>
+    <option value="Hotel Neo plus">Hotel Neo plus</option>
+    <option value="Worqing">Worqing</option>
+    <option value="conference hall">conference hall</option>
+    <option value="red by sirocco">red by sirocco</option>
+    <option value="Morocco">morocco</option>
+    <option value="Subang">Subang</option>
+    <option value="Hotel Times square">Hotel Times square</option>
+    <option value="ricotto">Ricotto</option>
+    <option value="Love and peace">Love and peace</option>
+    <option value="Ametis Hub">Ametis Hub</option>
+    <option value="Berjaya">Berjaya</option>
+    <option value="KL ">KL</option>
+    <option value="Hotel ">Hotel</option>
+    <option value="Wor">Wor</option>
+    <option value="Ampang conference centre">Ampang conference centre</option>
+    <option value="hall">hall</option>
+    <option value="Auditoriuum">Auditoriuum</option>
+    <option value="KL Centerall">KL Centerall</option>
+    <option value="Hotel Neo pluss">Hotel Neo pluss</option>
+    <option value="Syberjaya">Syberjaya</option>
+    <option value="amitess hub">amitess hub</option>
+</select>
+</div>
+
+<button class="btn" id="submit1" type="button">Submit</button>
+</form>
+
+
+</div>
+<input type="text" id="search" name="search" placeholder="search here"/>
+<button type="button" onclick="find()">Search</button>
+
+
+<p id="result"><br/></p>
+<button id="loadAll" type="button" onclick="loadAll()" value="Load All Data">Load All Data </button>
+<br/>
+<div id="list">
+</div>
+</div>
+
+
+</body>
+
+</html>
+<script src="data.js"></script>
