@@ -13,9 +13,7 @@ iii.	Task contribution(s) :
 •	reservation.css
 
 2.	Intan 
-•	data.Js
-•	Reservationform.html
-•	reservation.css
+•	Debugging
 
 3.	Munawwarah 
 •	About.php
